@@ -13,12 +13,13 @@
     border-radius: 0.5rem;
   }
   img.featured {
-    height: 500px;
+    max-height: 500px;
   }
   img.borderless {
     border: none;
     background: none;
     box-shadow: none;
+    height: 500px;
   }
   img.logo {
     @extend img.borderless;
